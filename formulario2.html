@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Início</a>
+        </li>
+       <li><a href="formulario.html">Formulario Simples</a>
+        </li>
+        <li><a href="formulario2.html">Formulario Completo</a>
+        </li>
+       </ul>
+    <h1>Formulário</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="Nome" id="nome"><br>
+
+            <label for="Data de nascimento">Data de nascimento:</label>
+            <input type="text" name="Data de nascimento" id="Data de nascimento" placeholder="dd / mm / aaaa"><br>
+
+            <label for="E-mail">E-mail:</label>
+            <input type="text" name="E-mail" id="E-mail"><br>
+
+            <label for="Telefone">Telefone:</label>
+            <input type="text" name="Telefone" id="Telefone">
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados acadêmicos</legend>
+            <label for="Curso">Curso</label>
+            <select name="Curso" id="Curso">
+            <option value="ADS">ADS</option>
+            <option value="GTI">GTI</option>
+            <option value="CI">CI</option>
+            <option value="TI">TI</option>
+            </select><br>
+
+            <label for="Semestre">Semestre:</label>
+            <input type="radio" id="1º" value="1º" name="fav_language">
+            <label for="1º">1º</label>
+            <input type="radio" id="2º" value="2º" name="fav_language">
+            <label for="2º">2º</label>
+            <input type="radio" id="3º" value="3º" name="fav_language">
+            <label for="3º">3º</label>
+            <input type="radio" id="4º" value="4º" name="fav_language">
+            <label for="4º">4º</label>
+        </fieldset>
+        <fieldset>
+            <label for="Trabalha">Trabalha?</label>
+            <input type="checkbox" name="Trabalha" id="Trabalha"><br>
+
+            <label for="Local de trabalho">Local de trabalho:</label>
+            <input type="text" name="Local de trabalho" id="Local de trabalho"><br>
+
+            <label for="Descreva sua Experiência">Descreva sua experiência</label><br>
+            <textarea rows="4" cols="170">
+                
+            </textarea>
+        </fieldset>
+        <input type="submit" value="Gravar">
+        <input type="submit" value="Limpar">
+    </form>
+</body>
+</html>
